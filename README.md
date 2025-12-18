@@ -1,3 +1,3 @@
 # Core-Python
 Python Basics
-Dummy Projects
+This repo is only for practice
