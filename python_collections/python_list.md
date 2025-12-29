@@ -74,212 +74,143 @@ thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[:4])
 ```
 
-
 This example returns the items from "cherry" to the end:
-
-
+```python
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:])
-
-
-
+```
 
 Change the second item:
-
-
+```python
 thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant"
 print(thislist)
-
-
-
+```
 
 Append Items
 To add an item to the end of the list, use the append() method:
-
+```python
 thislist = ["apple", "banana", "cherry"]
 thislist.append("orange")
 print(thislist)
-
-
+```
 
 To insert a list item at a specified index, use the insert() method.
 The insert() method inserts an item at the specified index:
-
-
+```python
 thislist = ["apple", "banana", "cherry"]
 thislist.insert(1, "orange")
 print(thislist)
-
-
-
-
+```
 
 Remove Specified Item
 The remove() method removes the specified item.
-
-
+```python
 thislist = ["apple", "banana", "cherry"]
 thislist.remove("banana")
 print(thislist)
+```
 
-
-
-If there are more than one item with the specified value, the remove() method removes the first occurance:
-
+If there are more than one item with the specified value, the remove() method removes the first occurance:  
 Remove the first occurance of "banana":
-
-
+```python
 thislist = ["apple", "banana", "cherry", "banana", "kiwi"]
 thislist.remove("banana")
 print(thislist)
-
-
-
+```
 
 Remove Specified Index
 The pop() method removes the specified index.
-
 Remove the second item:
-
+```python
 thislist = ["apple", "banana", "cherry"]
 thislist.pop(1)
 print(thislist)
-
-
-
+```
 
 If you do not specify the index, the pop() method removes the last item.
-
-
+```python
 thislist = ["apple", "banana", "cherry"]
 thislist.pop()
 print(thislist)
-
-
-
+```
 
 The del keyword also removes the specified index:
-
 Remove the first item:
-
-
+```python
 thislist = ["apple", "banana", "cherry"]
 del thislist[0]
 print(thislist)
-
-
-
+```
 
 Delete the entire list:
-
-
+```python
 thislist = ["apple", "banana", "cherry"]
 del thislist
-
-
-
+```
 
 Clear the List
 The clear() method empties the list.
 The list still remains, but it has no content.
-
+```python
 thislist = ["apple", "banana", "cherry"]
 thislist.clear()
 print(thislist)
-
-
-
-
+```
 
 You can loop through the list items by using a for loop:
 Print all items in the list, one by one:
-
-
+```python
 thislist = ["apple", "banana", "cherry"]
 for x in thislist:
   print(x)
-
-
-
+```
 
 Print all items by referring to their index number:
-
-
-
-
+```python
 thislist = ["apple", "banana", "cherry"]
 for i in range(len(thislist)):
   print(thislist[i])
-
-
-
+```
 
 Print all items, using a while loop to go through all the index numbers
-
-
+```python
 thislist = ["apple", "banana", "cherry"]
 i = 0
 while i < len(thislist):
   print(thislist[i])
   i = i + 1
-
-
-
+```
 
 List Comprehension
 List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
 
 Based on a list of fruits, you want a new list, containing only the fruits with the letter "a" in the name.
 Without list comprehension you will have to write a for statement with a conditional test inside:
-
-
+```python
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = []
-
-
 for x in fruits:
   if "a" in x:
     newlist.append(x)
-
-
 print(newlist)
-
-
-
-
-
-
 
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-
-
 newlist = [x for x in fruits if "a" in x]
-
-
 print(newlist)
-
-
-
-
+```
 
 Python - Sort Lists
-
-
 Sort the list alphabetically:
-
+```python
 thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 thislist.sort()
 print(thislist)
-
-
-
-
+```
 Sort Descending
 To sort descending, use the keyword argument reverse = True
-
+```python
 thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 thislist.sort(reverse = True)
 print(thislist)
-
-
+```
