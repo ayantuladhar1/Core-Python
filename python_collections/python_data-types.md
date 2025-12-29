@@ -6,9 +6,10 @@
 * Set Types: set
 * Boolean Type: bool
 
-{content:
-**Example 							Data Type**
-* x = "Hello World"   				str
+
+|**Example | Data Type**
+|----------------------|
+| x = "Hello World" | str |
 * x = 20								int
 * x = 20.5							float
 * x = 1j								complex
@@ -18,7 +19,7 @@
 * x = {"name" : "John", "age" : 36}	dict
 * x = {"apple", "banana", "cherry"}	set
 * x = True							bool
-}
+
 
 #Multiline Strings
 a = """Lorem ipsum dolor sit amet,
