@@ -26,7 +26,7 @@ Assignment operators are used to assign values to variables:
 |//=	|		x //= 3	|	x = x // 3|
 |**=	|		x **= 3	|	x = x ** 3|
 |&=		|	x &= 3	|	x = x & 3|
-||=		|	x |= 3	|	x = x | 3|
+|type=		|	x type= 3	|	x = x type 3|
 |^=		|	x ^= 3	|	x = x ^ 3|
 |>>=	|		x >>= 3	|	x = x >> 3|
 |<<=	|		x <<= 3	|	x = x << 3|
