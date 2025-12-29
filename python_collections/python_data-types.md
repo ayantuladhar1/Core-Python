@@ -7,7 +7,7 @@
 * Boolean Type: bool
 
 
-|**Example | Data Type**
+|**Example | Data Type**|
 |----------------------|
 | x = "Hello World" | str |
 * x = 20								int
