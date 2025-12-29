@@ -9,12 +9,12 @@ print(10 + 5)
 |/ | Division | x / y|
 |% | Modulus | x % y|
 |**	| Exponentiation | x ** y|
-|//	| Floor division | x // y|
-
-
+|//	| Floor division | x // y|  
+  
+  
 #Python Assignment Operators  
 Assignment operators are used to assign values to variables:  
-
+  
 |Operator | Example |	Same As|
 |---------|---------|--------|
 |=		|	x = 5	|	x = 5|
@@ -29,11 +29,11 @@ Assignment operators are used to assign values to variables:
 |type=		|	x type= 3	|	x = x type 3|
 |^=		|	x ^= 3	|	x = x ^ 3|
 |>>=	|		x >>= 3	|	x = x >> 3|
-|<<=	|		x <<= 3	|	x = x << 3|
-
-
-#Python Comparison Operators
-Comparison operators are used to compare two values:
+|<<=	|		x <<= 3	|	x = x << 3|  
+  
+  
+#Python Comparison Operators  
+Comparison operators are used to compare two values:  
 
 #Operator 	Name 						Example
 ==			Equal						x == y
