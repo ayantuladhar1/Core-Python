@@ -6,7 +6,7 @@
 * Set Types: set
 * Boolean Type: bool
 
-content:{
+{content:
 **Example 							Data Type**
 * x = "Hello World"   				str
 * x = 20								int
