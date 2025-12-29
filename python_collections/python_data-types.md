@@ -8,8 +8,8 @@
 
 
 |**Example | Data Type**|
-|----------------------|
-| x = "Hello World" | str |
+|----------|------------|
+|x = "Hello World" | str |
 * x = 20								int
 * x = 20.5							float
 * x = 1j								complex
