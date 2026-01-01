@@ -18,7 +18,7 @@ print(thislist)
 <img width="519" height="36" alt="image" src="https://github.com/user-attachments/assets/858299c5-47c1-4911-a785-eb21c440b544" />
 
 # To determine how many items a list has, use the len() function
-Print the number of items in the list:  
+* Print the number of items in the list:  
 ```python
 thislist = ["apple", "banana", "cherry"]
 print(len(thislist))
@@ -26,16 +26,16 @@ print(len(thislist))
 <img width="24" height="21" alt="image" src="https://github.com/user-attachments/assets/d88eb2be-d41d-4543-91c3-63a898729d02" />
 
 # List Items - Data Types  
-List items can be of any data type:  
-String, int and boolean data types:  
+* List items can be of any data type:  
+* String, int and boolean data types:  
 ```python
 list1 = ["apple", "banana", "cherry"]
 list2 = [1, 5, 7, 9, 3]
 list3 = [True, False, False]
 ```
 
-A list can contain different data types:  
-A list with strings, integers and boolean values:  
+* A list can contain different data types:  
+* A list with strings, integers and boolean values:  
 ```python
 list1 = ["abc", 34, True, 40, "male"]
 ```
@@ -48,7 +48,7 @@ print(thislist)
 <img width="317" height="28" alt="image" src="https://github.com/user-attachments/assets/9d06868d-9c8d-4854-8aaf-69229f23a118" />
 
 # Access Items  
-List items are indexed and you can access them by referring to the index number:  
+* List items are indexed and you can access them by referring to the index number:  
 ```python
 thislist = ["apple", "banana", "cherry"]
 print(thislist[1])
@@ -56,37 +56,37 @@ print(thislist[1])
 <img width="81" height="26" alt="image" src="https://github.com/user-attachments/assets/2a8c496c-e679-4802-937a-c7fbc244428b" />
 
 # Negative Indexing  
-Negative indexing means start from the end  
--1 refers to the last item, -2 refers to the second last item etc.  
-Print the last item of the list:  
+* Negative indexing means start from the end  
+* -1 refers to the last item, -2 refers to the second last item etc.  
+* Print the last item of the list:  
 ```python
 thislist = ["apple", "banana", "cherry"]
 print(thislist[-1])
 ```
 <img width="65" height="30" alt="image" src="https://github.com/user-attachments/assets/5285f170-ada3-4311-845f-d942c5844bee" />
 
-Return the third, fourth, and fifth item:  
+* Return the third, fourth, and fifth item:  
 ```python
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:5])
 ```
 <img width="303" height="37" alt="image" src="https://github.com/user-attachments/assets/6bdb9550-817f-4f2c-953c-c14902e5e0cf" />
 
-This example returns the items from the beginning to, but NOT including, "kiwi":  
+* This example returns the items from the beginning to, but NOT including, "kiwi":  
 ```python
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[:4])
 ```
 <img width="430" height="35" alt="image" src="https://github.com/user-attachments/assets/86830d60-834f-4142-8797-06121228a843" />
 
-This example returns the items from "cherry" to the end:
+* This example returns the items from "cherry" to the end:
 ```python
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:])
 ```
 <img width="487" height="35" alt="image" src="https://github.com/user-attachments/assets/4ebbe9ff-ed26-46da-8e77-be322a6cc88c" />
 
-Change the second item:
+* Change the second item:
 ```python
 thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant"
@@ -95,7 +95,7 @@ print(thislist)
 <img width="384" height="33" alt="image" src="https://github.com/user-attachments/assets/58d4dbf6-fa89-4220-8641-f48c741f9b06" />
 
 # Append Items
-To add an item to the end of the list, use the append() method:
+* To add an item to the end of the list, use the append() method:
 ```python
 thislist = ["apple", "banana", "cherry"]
 thislist.append("orange")
@@ -104,7 +104,7 @@ print(thislist)
 <img width="419" height="41" alt="image" src="https://github.com/user-attachments/assets/871ed689-1ff3-4bbd-80d3-2e5ebdd37890" />
 
 # To insert a list item at a specified index, use the insert() method
-The insert() method inserts an item at the specified index:
+* The insert() method inserts an item at the specified index:
 ```python
 thislist = ["apple", "banana", "cherry"]
 thislist.insert(1, "orange")
@@ -113,7 +113,7 @@ print(thislist)
 <img width="417" height="41" alt="image" src="https://github.com/user-attachments/assets/34f97460-7047-4001-abc8-309f0871e3e0" />
 
 # Remove Specified Item
-The remove() method removes the specified item.
+* The remove() method removes the specified item.
 ```python
 thislist = ["apple", "banana", "cherry"]
 thislist.remove("banana")
@@ -121,8 +121,8 @@ print(thislist)
 ```
 <img width="202" height="41" alt="image" src="https://github.com/user-attachments/assets/89ca2cfe-ba28-4328-bfb8-c0e1b90d66b0" />
 
-If there are more than one item with the specified value, the remove() method removes the first occurance:  
-Remove the first occurance of "banana":
+* If there are more than one item with the specified value, the remove() method removes the first occurance:  
+* Remove the first occurance of "banana":
 ```python
 thislist = ["apple", "banana", "cherry", "banana", "kiwi"]
 thislist.remove("banana")
@@ -131,8 +131,8 @@ print(thislist)
 <img width="399" height="38" alt="image" src="https://github.com/user-attachments/assets/0ed152e4-ebdd-4858-989f-ce5d605706b8" />
 
 # Remove Specified Index
-The pop() method removes the specified index.
-Remove the second item:
+* The pop() method removes the specified index.
+* Remove the second item:
 ```python
 thislist = ["apple", "banana", "cherry"]
 thislist.pop(1)
@@ -140,7 +140,7 @@ print(thislist)
 ```
 <img width="227" height="34" alt="image" src="https://github.com/user-attachments/assets/6c7ed5c1-ad85-49af-847b-956dcc5e118a" />
 
-If you do not specify the index, the pop() method removes the last item.
+* If you do not specify the index, the pop() method removes the last item.
 ```python
 thislist = ["apple", "banana", "cherry"]
 thislist.pop()
@@ -149,7 +149,7 @@ print(thislist)
 <img width="209" height="44" alt="image" src="https://github.com/user-attachments/assets/23640d27-111f-46b5-8257-b9ccccac7c4e" />
 
 # The del keyword also removes the specified index:
-Remove the first item:
+* Remove the first item:
 ```python
 thislist = ["apple", "banana", "cherry"]
 del thislist[0]
