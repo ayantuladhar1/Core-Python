@@ -105,13 +105,14 @@ print(x is not z)
 print(x is not y)  
  ``` 
 * Returns True because x is not the same object as y, even if they have the same content  
-  ```python
+```python
 print(x != y)  
   ```
   
 # Python Membership Operators
 Membership operators are used to test if a sequence is presented in an object:
 
-# Operator	Description																			Example
-in 			Returns True if a sequence with the specified value is present in the object		x in y
-not in		Returns True if a sequence with the specified value is not present in the object	x not in y
+|Operator|Description|Example|
+|--------|-----------|-------|
+|in|Returns True if a sequence with the specified value is present in the object|x in y|
+|not in	|Returns True if a sequence with the specified value is not present in the object|x not in y|
