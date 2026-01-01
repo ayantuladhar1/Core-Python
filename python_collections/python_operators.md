@@ -1,4 +1,4 @@
-#In the example below, we use the + operator to add together two values:  
+# In the example below, we use the + operator to add together two values:  
 ```python
 print(10 + 5)  
 ```
@@ -13,7 +13,7 @@ print(10 + 5)
 |//	| Floor division | x // y|  
   
   
-#Python Assignment Operators  
+# Python Assignment Operators  
 Assignment operators are used to assign values to variables:  
   
 |Operator | Example |	Same As|
@@ -33,7 +33,7 @@ Assignment operators are used to assign values to variables:
 |<<=	|		x <<= 3	|	x = x << 3|  
   
   
-#Python Comparison Operators  
+# Python Comparison Operators  
 Comparison operators are used to compare two values:  
   
 |Operator | Name 			|			Example|
@@ -46,14 +46,14 @@ Comparison operators are used to compare two values:
 |<=		|	Less than or equal to		|x <= y|
   
   
-#Some Examples  
+# Some Examples  
 ```python
 x = 5  
 y = 3   
 print(x == y)  
 ```
   
-#Python Logical Operators  
+# Python Logical Operators  
 Logical operators are used to combine conditional statements:  
   
 |Operator |	Description 		|										Example|
@@ -63,13 +63,13 @@ Logical operators are used to combine conditional statements:
 |not		|	Reverse the result, returns False if the result is true	|	not(x < 5 and x < 10)|
   
   
-#Some Examples  
+# Some Examples  
 ```python
 x = 5  
 print(x > 3 and x < 10)  
 ```
   
-#Python Identity Operators  
+# Python Identity Operators  
 Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:  
   
 |Operator |	Description	|	Example |
@@ -78,7 +78,7 @@ Identity operators are used to compare the objects, not if they are equal, but i
 |is not	|	Returns True if both variables are not the same object |	x is not y|
   
   
-#Some Examples  
+# Some Examples  
 ```python
 x = ["apple", "banana"]  
 y = ["apple", "banana"]  
@@ -86,11 +86,11 @@ z = x
 print(x is z)  
 ```
 
-#Returns True because z is the same object as x  
+# Returns True because z is the same object as x  
 ```python
 print(x is y)  
 ```
-#Returns False because x is not the same object as y, even if they have the same content  
+# Returns False because x is not the same object as y, even if they have the same content  
 ```python
 print(x == y)  
   
@@ -100,18 +100,18 @@ z = x
   
 print(x is not z)  
   ```
-#Returns False because z is the same object as x  
+# Returns False because z is the same object as x  
 ```python
 print(x is not y)  
  ``` 
-#Returns True because x is not the same object as y, even if they have the same content  
+# Returns True because x is not the same object as y, even if they have the same content  
   ```python
 print(x != y)  
   ```
   
-#Python Membership Operators
+# Python Membership Operators
 Membership operators are used to test if a sequence is presented in an object:
 
-#Operator	Description																			Example
+# Operator	Description																			Example
 in 			Returns True if a sequence with the specified value is present in the object		x in y
 not in		Returns True if a sequence with the specified value is not present in the object	x not in y
